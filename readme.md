@@ -5,7 +5,7 @@
 - Esterilla de calor para reptiles
 - Modulo display
 	
-	![20220209182455.png](https://github.com/fathooo/Control_temperatura/blob/main/attachments/Pasted%20image%2020220209133653.png)
+	![20220209182455.png](https://github.com/fathooo/Control_temperatura/blob/main/attachments/Pasted%20image%2020220209182455.png)
 	![20220209182534.png](https://github.com/fathooo/Control_temperatura/blob/main/attachments/Pasted%20image%2020220209182534.png)
 	![20220209182556.png](https://github.com/fathooo/Control_temperatura/blob/main/attachments/Pasted%20image%2020220209182556.png)
 	
