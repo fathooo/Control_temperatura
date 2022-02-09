@@ -10,11 +10,11 @@
 	![20220209182556.png](https://github.com/fathooo/Control_temperatura/blob/main/attachments/Pasted%20image%2020220209182556.png)
 	
 ## Funcionamiento:
-- El funcionamiento es sencillo, mi intensión es poder regular la temperatura de un lugar cerrado cuando la temperatura es menor a 24 grados celcius, sirve para el cuidado de animales o para la regulación de temperaturas de plantas agregando un modulo relé con más capacidad de voltaje y amperes.
+- El funcionamiento es sencillo, mi intensión es poder regular la temperatura de un lugar cerrado cuando la temperatura es menor a 24 grados Celcius, sirve para el cuidado de animales o para la regulación de temperaturas de plantas agregando un modulo relé con más capacidad de voltaje y amperes.
 
-- Apliqué un rango de temperatura óptima en la que quiero que trabaje, cuando alcanza la temperatura minima se enciende el relé lo cual otorga energía a la esterilla de calor y cuando alcanza la temperatura maxima se apaga el relé, quitandole la energía a la esterilla de calor, disminuyendo así la temperatura, toda esta configuración la hago desde mi navegador.
+- Apliqué un rango de temperatura óptima en la que quiero que trabaje, cuando alcanza la temperatura mínima se enciende el relé lo cual otorga energía a la esterilla de calor y cuando alcanza la temperatura maxima se apaga el relé, quitándole la energía a la esterilla de calor, disminuyendo así la temperatura, toda esta configuración la hago desde mi navegador.
 
-- Desde mi computador o celular puedo entrar a mi navegador y ver la temperatura y humedad actual en tiempo real, la configuración que tengo actualmente de rango de temperatura y también puedo modificar la configuración con una temperatura minima y maxima y un usuario que servirá como autentificador. 
+- Desde mi computador o celular puedo entrar a mi navegador y ver la temperatura y humedad actual en tiempo real, la configuración que tengo actualmente de rango de temperatura y también puedo modificar la configuración con una temperatura mínima y máxima y un usuario que servirá como autentificador. 
 
 ![20220209135234.png](https://github.com/fathooo/Control_temperatura/blob/main/attachments/Pasted%20image%2020220209135234.png)
 	
@@ -28,15 +28,15 @@
 
 - Hasta acá tenemos el proyecto funcionando y recopilando los datos para su monitorización.
 
-## Analisis de datos
+## Análisis de datos
 
-- Para el anasis utilizo python ya que puedo hacer el ordenamiento de la información y realizar graficos.
+- Para el análisis utilizo Python ya que puedo hacer el ordenamiento de la información y realizar gráficos.
 
 - Ya que la información viene raw separado con un pipe " | ", utilizo expresiones regulares para ordenar la información y dejarlo en un dataframe con pandas.
  
 ![20220209170624.png](https://github.com/fathooo/Control_temperatura/blob/main/attachments/Pasted%20image%2020220209170624.png)
 
-- Mi configuración de temperatura era de 27 grados minimo y 28 grados maximo, después de hacer un analisis descriptivo de los datos, podemos determinar que: 
+- Mi configuración de temperatura era de 27 grados mínimo y 28 grados máximo, después de hacer un análisis descriptivo de los datos, podemos determinar que: 
 
 ![20220209170354.png](https://github.com/fathooo/Control_temperatura/blob/main/attachments/Pasted%20image%2020220209170354.png)
 
